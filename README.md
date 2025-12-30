@@ -61,7 +61,7 @@ AllMark Gate is designed to run in **customer-controlled infrastructure** (AWS),
 
 ### Backend service
 
-* A FastAPI service (`app.py`) that:
+* A FastAPI service that:
 
   * Creates meetings and issues participant/verifier links
   * Receives verification results
@@ -84,7 +84,7 @@ AllMark Gate can be deployed into a customer AWS environment. A typical secure r
 
   * Frontend static assets (S3 origin)
   * Backend API (ALB origin)
-* **ALB** → **ECS/Fargate** (or EC2) running `app.py`
+* **ALB** → **ECS/Fargate** (or EC2) running the API service
 * **Redis** (ElastiCache or MemoryDB)
 * **CloudWatch Logs/Metrics**
 * Optional: **AWS WAF** in front of CloudFront
