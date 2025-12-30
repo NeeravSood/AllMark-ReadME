@@ -3,7 +3,7 @@
 
 **Audience:** IT Administrators, Security Engineers, Cloud/Infrastructure Teams
 
-**Product:** AllMark Gate (Browser-only verification gate for external meeting platforms)
+**Product:** AllMark Verification Tool(Browser-only verification Verification Tool for external meeting platforms)
 
 **Platforms:** Google Meet, Microsoft Teams, Zoom, Webex (meeting links remain on the customer platform)
 
@@ -13,9 +13,9 @@
 
 ## 1. Overview
 
-AllMark Gate is a **browser-based verification gateway** designed to reduce the risk of **impersonation and AI-assisted fraud** for high-stakes online meetings. It operates as a **pre-join verification step** and enforces a **mandatory post-join integrity window** while the participant joins the meeting on their chosen meeting platform.
+AllMark Verification Tool is a **browser-based verification gateway** designed to reduce the risk of **impersonation and AI-assisted fraud** for high-stakes online meetings. It operates as a **pre-join verification step** and enforces a **mandatory post-join integrity window** while the participant joins the meeting on their chosen meeting platform.
 
-AllMark Gate is intended for use in **government and enterprise** contexts where meeting identity assurance and meeting integrity are critical.
+AllMark Verification Tool is intended for use in **government and enterprise** contexts where meeting identity assurance and meeting integrity are critical.
 
 ### Key capabilities
 
@@ -26,19 +26,19 @@ AllMark Gate is intended for use in **government and enterprise** contexts where
 * **Host override:** allow or revoke join for exceptional cases
 * **Privacy-preserving operation:** no participant video upload or storage
 
-> **Accuracy statement:** AllMark Gate has measured **up to 98% accuracy** in controlled evaluations against defined test scenarios. Real-world performance depends on configuration, user environment, and threat conditions. No security control guarantees absolute prevention.
+> **Accuracy statement:** AllMark Verification Tool has measured **up to 98% accuracy** in controlled evaluations against defined test scenarios. Real-world performance depends on configuration, user environment, and threat conditions. No security control guarantees absolute prevention.
 
 ---
 
 ## 2. Privacy, Data Handling, and Trust Boundaries
 
-### What AllMark Gate does **not** do
+### What AllMark Verification Tool does **not** do
 
 * Does **not** upload or store participant video
 * Does **not** store biometric templates
 * Does **not** provide human review of participant media
 
-### What AllMark Gate may store/transmit (customer-controlled)
+### What AllMark Verification Tool may store/transmit (customer-controlled)
 
 * Verification outcomes (PASS/FAIL/REVERIFY REQUIRED)
 * Correlation codes and audit-friendly event records
@@ -47,7 +47,7 @@ AllMark Gate is intended for use in **government and enterprise** contexts where
 
 ### Data ownership
 
-AllMark Gate is designed to run in **customer-controlled infrastructure** (AWS), where operational logs and verification records remain within the customer’s security boundary.
+AllMark Verification Tool is designed to run in **customer-controlled infrastructure** (AWS), where operational logs and verification records remain within the customer’s security boundary.
 
 ---
 
@@ -78,7 +78,7 @@ AllMark Gate is designed to run in **customer-controlled infrastructure** (AWS),
 
 ## 4. Deployment Model (AWS)
 
-AllMark Gate can be deployed into a customer AWS environment. A typical secure reference architecture is:
+AllMark Verification Tool can be deployed into a customer AWS environment. A typical secure reference architecture is:
 
 * **CloudFront** (public edge) serving:
 
@@ -200,7 +200,7 @@ This short window is used to detect rapid changes in the participant’s environ
 
 ## 9. Overrides and Review Policy
 
-AllMark Gate supports host-driven exceptions.
+AllMark Verification Tool supports host-driven exceptions.
 
 ### Typical situations for override
 
@@ -262,7 +262,7 @@ AllMark Gate supports host-driven exceptions.
 
 ## 12. Limitations and Responsible Use
 
-AllMark Gate is designed to **reduce risk** and help organizations detect and deter fraud. It does not guarantee prevention of every possible attack and should be part of a layered security approach.
+AllMark Verification Tool is designed to **reduce risk** and help organizations detect and deter fraud. It does not guarantee prevention of every possible attack and should be part of a layered security approach.
 
 ### Recommended complementary controls
 
