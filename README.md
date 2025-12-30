@@ -2,8 +2,11 @@
 # AllMark — IT Admin Deployment & Operations Guide
 
 **Audience:** IT Administrators, Security Engineers, Cloud/Infrastructure Teams
+
 **Product:** AllMark Gate (Browser-only verification gate for external meeting platforms)
+
 **Platforms:** Google Meet, Microsoft Teams, Zoom, Webex (meeting links remain on the customer platform)
+
 **Data posture:** No participant video uploads or storage
 
 ---
